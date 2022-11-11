@@ -1,0 +1,28 @@
+.board {
+    text-align: center;
+    border-spacing: 0pt;
+    border-width: 0pt 0pt 0pt 0pt;
+    user-select: none;
+}
+
+.square {
+    font-family: 'Arial Unicode MS';
+    font-size: 24pt;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: default;
+}
+
+.white {
+    background-color: lightgrey;
+}
+
+.black {
+    background-color: darkgrey;
+}
+
+.validMove {
+    cursor: pointer;
+    border: 2px solid grey;
+    background-color: rgba(0, 255, 0, 0.7);
+}
